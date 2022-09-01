@@ -1,0 +1,36 @@
+[System]
+Name='ControlBorroso'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=2
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='sensor3'
+Range=[0 5]
+NumMFs=2
+MF1='CERCA':'trimf',[0 0 1.6]
+MF2='LEJOS':'trimf',[1.6 5 5]
+
+[Output1]
+Name='V'
+Range=[0 1]
+NumMFs=1
+MF1='GRANDE':'trimf',[1 1 1]
+
+[Output2]
+Name='W'
+Range=[-1 1]
+NumMFs=2
+MF1='RECTO':'trimf',[0 0 0]
+MF2='DERECHA':'trimf',[-1 -1 0]
+
+[Rules]
+2, 1 2 (1) : 1
+1, 1 1 (1) : 1

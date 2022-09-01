@@ -1,0 +1,33 @@
+[System]
+Name='ControlNBW'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[0.529999971389771 5]
+NumMFs=3
+MF1='in1mf1':'trimf',[-1.70500004291534 0.433754026504544 3.95060487509393]
+MF2='in1mf2':'trimf',[0.0914327222918188 1.41834983155785 5.0010619165928]
+MF3='in1mf3':'trimf',[3.16716982308551 5.12902911221357 7.23498457299983]
+
+[Output1]
+Name='output'
+Range=[-0.200000002980232 0]
+NumMFs=3
+MF1='out1mf1':'constant',[0.0887388729039612]
+MF2='out1mf2':'constant',[-0.211173089875201]
+MF3='out1mf3':'constant',[-0.133097288615728]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
