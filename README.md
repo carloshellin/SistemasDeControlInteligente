@@ -1,6 +1,6 @@
 # Sistemas de Control Inteligente
 
-Este repositorio almacena las prácticas realizadas durante el curso 2020/2021 para la asignatura [SISTEMAS DE CONTROL INTELIGENTE (781005)](https://www.uah.es/es/estudios/estudios-oficiales/grados/asignatura/Sistemas-de-Control-Inteligente-781005/) del departamento Electrónica de la Universidad de Alcalá.
+Este repositorio almacena las prácticas realizadas durante el curso 2021/2022 para la asignatura [SISTEMAS DE CONTROL INTELIGENTE (781005)](https://www.uah.es/es/estudios/estudios-oficiales/grados/asignatura/Sistemas-de-Control-Inteligente-781005/) del departamento Electrónica de la Universidad de Alcalá.
 
 ## Contenido
 
